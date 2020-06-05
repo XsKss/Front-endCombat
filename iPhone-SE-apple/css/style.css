@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    background-color: #131313;
+}
+
+body.loaded {
+    height: 5000px;
+}
+/* 滚动空间 */
+#location {
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* 演示居中 */
+canvas {
+    position: relative;
+    margin-top: -100px;
+}
+
+p {
+    font-size: 28px;
+    color: #fff;
+    font-family: Helvetica;
+    font-weight: bold;
+    position: absolute;
+    top: 45%;
+    opacity: 0;
+}
+
+p.left {
+    left: 50%;
+}
+
+p.right {
+    right: 50%;
+}
+
+p.start {
+    font-size: 50px
+}
